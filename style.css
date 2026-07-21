@@ -202,21 +202,4 @@ text-align:center;
     height:48px;
     object-fit:contain;
 }
-.logo-box a{
-    display:inline-block;
-    text-decoration:none;
-}
 
-.logo-box img{
-    display:block;
-    height:48px;
-    max-width:100%;
-    width:auto;
-    transition:transform .2s ease, opacity .2s ease;
-    cursor:pointer;
-}
-
-.logo-box img:hover{
-    transform:scale(1.05);
-    opacity:.9;
-}
