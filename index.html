@@ -1,144 +1,140 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Безынерционная киянка — Крепком</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Безынерционная киянка — Крепком</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- [ШАБЛОН] Подключение Метрики -->
+   <!-- Yandex.Metrika counter -->
 
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- /Yandex.Metrika counter -->
+
 </head>
-
 <body>
-
-<div class="container">
-
-<header class="header">
-
-   <div class="logo-box">
-    <a href="https://krepcom.ru" target="_blank">
-        <img src="logo-new-krepcom_WATERMARK.png" alt="Крепком">
-    </a>
-</div>
-
-  
-
-</header>
-
-<section class="product-card">
-
-    <h2 class="product-title">Безынерционная киянка</h2>
-
-    <p class="product-subtitle">
-        Космические технологии теперь для земных задач!
-    </p>
-
-    <div class="product-grid">
-
-        <div class="left-column">
-           
-  <div class="main-photo">
-                <a href="6056256587.jpg.webp" target="_blank">
-                    <img src="2049-680.jpg.webp" alt="Метчик гаечный">
+    <div class="container">
+        <header class="header">
+            <div class="logo-box">
+                <a href="https://krepcom.ru" target="_blank">
+                    <!-- [ШАБЛОН] Путь к логотипу -->
+                    <img src="logo-new-krepcom_WATERMARK.png" alt="Крепком">
                 </a>
             </div>
+            <!-- [ШАБЛОН] Опциональный бейдж (например, "Хит" или "Новинка") -->
+            <!-- <span class="badge">Хит продаж</span> -->
+        </header>
 
-            <div class="video-block">
-                <h3><i class="fas fa-play-circle"></i> Видео работы</h3>
+        <main class="product-card">
+            <!-- [ШАБЛОН] Заголовок и описание -->
+            <h1 class="product-title">Безынерционная киянка</h1>
+            <p class="product-subtitle">Космические технологии для земных задач!</p>
 
-                <div class="video-wrapper">
-                    <video controls preload="metadata">
-                        <source src="для брошюры 3.mov" type="video/mp4">
-                        Ваш браузер не поддерживает видео.
-                    </video>
+            <div class="product-grid">
+                <!-- ЛЕВАЯ КОЛОНКА: Медиа и сопутствующие товары -->
+                <div class="left-column">
+                    <div class="main-photo">
+                        <!-- [ШАБЛОН] Основное изображение -->
+                        <a href="2049-680.jpg.webp" target="_blank">
+                            <img src="2049-680.jpg.webp" alt="Безынерционная киянка" loading="lazy">
+                        </a>
+                    </div>
+
+                    <!-- [ШАБЛОН] Видео (удалить блок, если видео нет) -->
+                    <div class="video-block">
+                        <h3><i class="fas fa-play-circle"></i> Видео работы</h3>
+                        <div class="video-wrapper">
+                            <video controls preload="metadata" poster="poster.jpg">
+                                <source src="для брошюры 3.mov" type="video/mp4">
+                                Ваш браузер не поддерживает видео.
+                            </video>
+                        </div>
+                    </div>
+
+                    <!-- [ШАБЛОН] Сопутствующие товары -->
+                    <section class="related-products">
+                        <h2>Сопутствующие товары</h2>
+                        <div class="related-grid">
+                            <!-- Копировать блок .related-card для каждого товара -->
+                            <a href="https://krepcom.ru/catalog/?ss=%2Fcatalog%2F&q=очки&s=" class="related-card">
+                                <img src="очки.jpg.webp" alt="Биты" loading="lazy">
+                                <h4>Очки</h4>
+                            </a>
+                            
+                            <a href="https://krepcom.ru/catalog/?q=перчатки" class="related-card">
+                                <img src="перчатки.jpg.webp" alt="Перчатки" loading="lazy">
+                                <h4>Перчатки</h4>
+                                
+                                <a href="https://krepcom.ru/catalog/izmeritelnyy-instrument/" class="related-card">
+                                <img src="уровень.jpg.webp" alt="Уровень" loading="lazy">
+                                <h4>Шаблон</h4>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ПРАВАЯ КОЛОНКА: Информация и характеристики -->
+                <div class="right-column">
+                    <div class="info-card">
+                        <h3>Принцип работы</h3>
+                        <!-- [ШАБЛОН] Текст принципа работы -->
+                        <p>Слесарный безынерционный молоток облитый эластомером применяется для слесарно-монтажных и демонтажных работ, а также для работ с мягкими листовыми металлами.
+                           Профессиональный безынерционный многофункциональный инструмент. Маслобензостойкий корпус с двухкомпонентной рукояткой. Голова засыпана свинцовой крошкой для гашения
+                           инерции. Отсутствие отдачи. Рабочая часть кувалды имеет пустотелую цельнолитую оболочку из ударопрочного пластика, облитого эластомером. Оптимальная тяжесть при работе.
+                           Рукоятка имеет противоскользящее покрытие. Полная обливка корпуса молотка предотвращает царапины на поверхности и исключает искры. 
+                           Безынерционная конструкция минимизирует рикошет и отдачу, делая работу более комфортной и безопасной.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Назначение</h3>
+                        <!-- [ШАБЛОН] Текст назначения -->
+                        <p>Применяется в промышленном производстве, при строительстве дорожных, лесных, сельскохозяйственных, садовых, 
+                           слесарно-монтажных и демонтажных работах, а также работах с мягкими листовыми металлами.</p>
+                    </div>
+
+                    <h3 class="section-title">Характеристики</h3>
+                    <div class="specs">
+                        <!-- [ШАБЛОН] Пары "Параметр - Значение" -->
+                        <div class="spec-item"><span>Материал</span><strong>Композит</strong></div>
+                        <div class="spec-item"><span>Покрытие</span><strong>Резина</strong></div>
+                        <div class="spec-item"><span>Боек</span><strong>Круглый</strong></div>
+                        <div class="spec-item"><span>Тип киянки</span><strong>Безынерционная</strong></div>
+                        
+                    </div>
+
+                    <h3 class="section-title">Размерный ряд</h3>
+                    <div class="sizes">
+                        <!-- [ШАБЛОН] Размеры -->
+                        <span>от 450 до 1800 грамм</span>
+                       <span>и другие</span>
+                    </div>
+
+                    <h3 class="section-title">Производители</h3>
+                    <div class="manufacturers">
+                        <!-- [ШАБЛОН] Ссылки на производителей -->
+                        <a href="https://krepcom.ru" class="manufacturer-card">Neo</a>
+                        <a href="https://krepcom.ru" class="manufacturer-card">Workpro</a>
+                        <a href="https://krepcom.ru" class="manufacturer-card">Kraftool</a>
+                        <a href="https://krepcom.ru" class="manufacturer-card">Stayer</a>
+                        <a href="https://krepcom.ru" class="manufacturer-card">Narex</a>
+                        <a href="https://krepcom.ru" class="manufacturer-card">ЗУБР</a>
+                       
+                        
+                    </div>
+
+                    <a class="site-link" href="https://krepcom.ru/catalog/?ss=%2Fcatalog%2F&q=безынерционн&s=" target="_blank">
+                        Перейти в каталог
+                    </a>
                 </div>
             </div>
+        </main>
 
-        </div>
-
-        <div class="right-column">
-
-            <div class="info-card">
-                <h3>Принцип работы</h3>
-                <p>
-                   Слесарный безынерционный молоток облитый эластомером БМО ЗУБР серия PROF применяется для слесарно-монтажных и демонтажных работ,
-                  а также для работ с мягкими листовыми металлами. Профессиональный безынерционный многофункциональный инструмент.
-                  Маслобензостойкий корпус с двухкомпонентной рукояткой. Голова засыпана свинцовой крошкой для гашения инерции. 
-                  Отсутствие отдачи. Рабочая часть кувалды имеет пустотелую цельнолитую оболочку из ударопрочного пластика, облитого эластомером. 
-                  Оптимальная тяжесть при работе. Рукоятка имеет противоскользящее покрытие. Полная обливка корпуса молотка предотвращает царапины на поверхности и исключает искры. 
-                  Безынерционная конструкция минимизирует рикошет и отдачу, делая работу более комфортной и безопасной.
-                </p>
-            </div>
-
-            <div class="info-card">
-                <h3>Назначение</h3>
-                <p>
-                  Применяется в промышленном производстве, при строительстве дорожных, лесных, сельскохозяйственных, садовых, слесарно-монтажных и демонтажных работах,
-                  а также работах с мягкими листовыми металлами.
-                </p>
-            </div>
-
-            <h3 class="section-title">Характеристики</h3>
-
-             <div class="specs">
-                    <div class="spec-item">
-                        <div class="label">Материал</div>
-                        <div class="value">Резина NBR</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Ударная головка</div>
-                        <div class="value">Свинцовый наполнитель</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Поле допуска</div>
-                        <div class="value">6Н</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Боёк</div>
-                        <div class="value">кргулый</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Тип киянки</div>
-                        <div class="value">Безынерционная</div>
-                    </div>
-                    <div class="spec-item">
-                        <div class="label">Производитель</div>
-                        <div class="value">ЗУБР</div>
-                    </div>
-                </div>
-            <h3 class="section-title">Размерный ряд</h3>
-
-            <div class="sizes">
-                <span>450гр</span>
-                <span>680гр</span>
-                <span>900гр</span>
-                <span>1350гр</span>
-                <span>1800гр</span>
-
-                <span>и другие</span>
-            </div>
-
-            <a class="site-link"
-               href="https://krepcom.ru/catalog/kiyanki/"
-               target="_blank">
-                Перейти на раздел сайта 
-            </a>
-
-        </div>
-
+        <footer class="footer">
+            <p>Отсканируйте QR-код на упаковке для перехода к описанию изделия.</p>
+        </footer>
     </div>
-
-</section>
-
-<footer class="footer">
-    Отсканируйте QR-код на упаковке для перехода к описанию изделия.
-</footer>
-
-</div>
-
 </body>
 </html>
